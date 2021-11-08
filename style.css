@@ -1,115 +1,104 @@
-section{
-    height: 650px;
+.container{
+    height: 600px;
+    padding-bottom: 5px;
 }
-.section_work{
-    height: 500px;
+.top {
+    height: 100%;
+    width: 50%;
+    float: left;
 }
-.seciton_bottom{
-    height: 500px;
+.text{
+    height: 60%;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 25%;
 }
-body{
-    font-family: 'Roboto', sans-serif;
+
+.image{
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.image img{
+    width: 80%;
 }
 h1{
-    font-size: 35px;
+    font-size: 45px;
 }
-.purple_highlight{
+p, a{
+    font-size: 20px;
+}
+span{
     color: purple;
-    font-size: 60px;
 }
-
-/*top_part*/
-.half_width_text_01{
-    width: 30%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 10%;
+.middle-1{
+    width: 25%;
+    height: auto;
+    margin: auto;
     padding-top: 2%;
 }
-.half_width_content_01{
-    width: 40%;
-    float: left;
-    margin-right: 5%;
-    padding-right: 10%;
+.middle-2{
+    height: 80%;
+    width: 100%;
+    margin-top: 2%;
 }
-.half_width_content_01 img{
+.middle-2 .image{
+    height: 60%;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    float: left;
+}
+.middle-2 .image img{
     width: 100%;
 }
 
-/*middle_part*/
-.half_width_text_02{
-    width: 40%;
-    float: left;
-    padding-top: 12%;
-}
-.half_width_content_02{
-    width: 40%;
-    float: left;
-    margin-left: 10%;
-    padding-top: 3%;
-}
-.half_width_content_02 img{
-    width: 85%;
+.box{
+    height: 600px;
+    width: 50%;
+    margin: auto;
 }
 
-/*bottom_part*/
-.bottom_work_01{
-    width: 23.3%;
-    margin-left: 5%;
-    padding-left: 5%;
-    padding-right: 1.5%;
-    padding-top: 3%;
-    float: left;
-}
-
-.bottom_work_01 img{
-    width: 100%;
-}
-.bottom_work_02{
-    width: 23.3%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-top: 3%;
-    float: left;
-}
-
-.bottom_work_02 img{
-    width: 100%;
-}
-.bottom_work_03{
-    width: 23.3%;
-    margin-right: 5%;
-    padding-left: 1.5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    float: left;
-}
-
-.bottom_work_03 img{
-    width: 100%;
-}
-.font_size{
-    font-size: 30px;
-}
-.mail_button{
-    font-size: 30px;
-    font-weight: bold;
-    padding: 5% 5%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    background-image: linear-gradient(90deg, deeppink, rgb(216, 85, 216));
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-}
-.bottom{
+.part-1{
+    height: 50%;
+    margin-top: 2%;
     text-align: center;
 }
-.link_button{
+.part-2{
+    height: 15%;
+    margin-top: 2%;
+
+}
+.part-3{
+    height: 30%;
+    margin-top: 2%;
+    background-image: linear-gradient(45deg, rgb(150, 18, 88), rgb(216, 135, 216));
+    border: 1px solid white; /* eitay jhamela ache. eitay kahini ki hoiche bujhtichi na. but border ta dile kaaj kortice.*/
+}
+.part-3 .poop{
+    height: 40%;
+    width: 50%;
+    text-align: center;
+    margin-left: 23%;
+    margin-top: 10%;
+}
+.part-3 a{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+.site_link{
     text-decoration: none;
     background-image: linear-gradient(45deg, deeppink, rgb(216, 85, 216));
     border-radius: 5px;
     color: white;
     font-weight: bold;
     padding: 10px 10px;
+}
+footer{
+    margin-top: 20%;
+    text-align: center;
+    font-size: xx-small;
+    color: grey;
 }
